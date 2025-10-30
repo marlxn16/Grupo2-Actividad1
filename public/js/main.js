@@ -24,9 +24,26 @@
         formulario.classList.remove('was-validated');
         return;
       }
-      
       // Agrega clases para mostrar la validacion visual
       formulario.classList.add('was-validated');
       
     }, false);
   });
+    // 5. RANGE INPUT - Mostrar valor
+  // aqui se busca el input de tipo range o de volumen
+  var rangeInput = document.getElementById('rangeVolumen');
+  var valorRango = document.getElementById('valorRango');
+  
+  if (rangeInput && valorRango) {
+    // Cuando el usuario mueve el deslizador
+    rangeInput.addEventListener('input', function() {
+      // se actualiza el texto con el valor mas actual
+      valorRango.textContent = this.value;
+    });
+  }
+
+  // 6. MENSAJE DE CONSOLA
+  console.log(' La pagina fue cargada correctamente');
+  console.log(' Todos los componentes Bootstrap 5 inicializados');
+
+});
