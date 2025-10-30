@@ -1,3 +1,7 @@
+/* Fuente del sitio */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
 
 /*limitamos el tama;o de la imagen en css*/
 .carousel-inner img {

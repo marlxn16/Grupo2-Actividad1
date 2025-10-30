@@ -57,6 +57,16 @@
     <img src="https://s1.significados.com/foto/tic6-og.jpg" class="d-block w-100" alt="imagen3">
   </div>
 </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselDemo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselDemo" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+  </div>
+</section>
 <!--FORMULARIOS-->
 <!--ultilice form control, form label, row-->
 <!--de esta manera se logra hacer el formulario de manera responsiva-->
@@ -91,12 +101,12 @@
 <!--para le creaccion de una seccion donde el usuario pueda seleccionar o elegir-->
 <!--diferentes opciones-->
 <div class="mb-3">
-    <label class="form-label">País o Nacionalidad</label>
+    <label class="form-label">Pais o Nacionalidad</label>
     <select class="form-select" required>
         <option value="">Seleccione...</option>
         <option>Ecuador</option>
         <option>Colombia</option>
-        <option>Perú</option>
+        <option>Peru</option>
         <option>Argentina</option>
         <option>Chile</option>
         </select>
@@ -146,18 +156,13 @@
     <label class="form-label">Volumen: <span id="valorRango">50</span></label>
     <input type="range" class="form-range" min="0" max="100" value="50" id="rangeVolumen">
 </div>
-    
-<!-- Botones -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselDemo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Anterior</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselDemo" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Siguiente</span>
-  </button>
-  </div>
-</section>
+
+  <!-- Botones de enviar y limpiar formulario -->
+<div class="d-flex gap-2">
+  <button class="btn btn-primary" type="submit">Enviar</button>
+  <button class="btn btn-secondary" type="reset">Limpiar</button>
+  <button class="btn btn-info" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Abrir Modal</button>
+</div> 
 
 <!--MODAL-->        
  <div class="modal fade" id="exampleModal" tabindex="-1">
@@ -183,13 +188,13 @@
     </section>
 
 <!--TARJETA-->
-<!-- la tarjeta ayuda para mostrar información agrupada-->
+<!-- la tarjeta ayuda para mostrar informacion agrupada-->
 <!-- encabezado, cuerpo y pie, aplicando clases-->
 <!--como bg-primary, text-white y card-footer-->
 <section class="my-4">
     <h3>Tarjeta</h3>
     <div class="card">
-    <div class="card-header bg-primary text-white">Información principal</div>
+    <div class="card-header bg-primary text-white">Informacion principal</div>
     <div class="card-body">
       <h5 class="card-title">Ejemplo de Tarjeta</h5>
       <p class="card-text">Grupo2 Aplicaciones web.</p>
@@ -201,7 +206,7 @@
   </section>
 
 <!--ACORDEON-->
-<!--Este codigo acordeón permite al usuario mostrar  la información
+<!--Este codigo acordeon permite al usuario mostrar  la informacion
  de una manera interactiva al hacer click en cada sección.-->
   <section class="my-4">
     <h3>Acordeón</h3>
@@ -308,7 +313,7 @@
 <!--Sección del pie de pagina-->
 <!--a qui tambien esta los archivos de java script necesarios para la funcionalidad-->
   <footer class="bg-dark text-white text-center py-3 mt-5">
-  <p class="mb-0">&copy; Grupo 2</p>
+  <p class="mb-0">&copy; Demostracion y utlizacion de booststrap 5 Grupo2 </p>
   </footer>
 
   <script src="vendor/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
