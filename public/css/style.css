@@ -1,0 +1,6 @@
+
+/*limitamos el tama;o de la imagen en css*/
+.carousel-inner img {
+  object-fit: cover;
+  height: 400px;
+}
