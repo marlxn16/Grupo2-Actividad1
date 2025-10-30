@@ -163,6 +163,9 @@
     <label class="form-label">Volumen: <span id="valorRango">50</span></label>
     <input type="range" class="form-range" min="0" max="100" value="50" id="rangeVolumen">
 </div>
+<<<<<<< HEAD
+    
+=======
 
   <!-- Botones de enviar y limpiar formulario -->
 <div class="d-flex gap-2">
@@ -171,6 +174,7 @@
   <button class="btn btn-info" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Abrir Modal</button>
 </div> 
 
+>>>>>>> f41dce663313b0ef73d67f17857ad6af32a23d35
 <!--MODAL-->        
  <div class="modal fade" id="exampleModal" tabindex="-1">
     <div class="modal-dialog">
@@ -291,10 +295,35 @@
 <!--ademas que facilita la identificacion detro de la interfaz-->
  <section class="my-4">
       <h3>Botones</h3>
-      <button class="btn btn-primary">Primary</button>
-      <button class="btn btn-secondary">Secondary</button>
+      <button class="btn btn-primary">Primero</button>
+      <button class="btn btn-secondary">Segundo</button>
       <button class="btn btn-success">Success</button>
     </section>
+
+    <!--Botono de grupo -->
+  <section class="my-4">
+  <h3>Boton de grupo</h3>
+    <div class="btn-group" role="group">
+    <button class="btn btn-primary">Uno</button>
+    <button class="btn btn-primary">Dos</button>
+  <button class="btn btn-primary">Tres</button>
+  </div>
+</section>
+
+<!--Botono de menu desplegable -->
+  <section class="my-4">
+    <h3>Boton de desplegable con un click</h3>
+    <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+  Opciones
+  </button>
+    <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Opción 1</a></li>
+  <li><a class="dropdown-item" href="#">Opción 2</a></li>
+  </ul>
+  </div>
+</section> 
+
 <!--TOOLTIP / POPOVER-->
 <!--Agregué un un tooltip para el mensaje y un popover para la información la cual se despliega al hacer clic-->
 <section class="my-4">
@@ -302,7 +331,7 @@
       <button class="btn btn-secondary me-2" data-bs-toggle="tooltip" title="Soy un tooltip">Tooltip</button>
       <button class="btn btn-info" data-bs-toggle="popover" data-bs-title="Título Popover" data-bs-content="Ejemplo de popover.">Popover</button>
     </section> 
-    
+
 <!--TABS-->
 <section class="my-4">
 <h3>Navs / Tabs / Pills</h3>
