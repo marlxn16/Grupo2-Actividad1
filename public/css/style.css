@@ -8,3 +8,9 @@ body {
   object-fit: cover;
   height: 400px;
 }
+/*tamaño de imagen en la tarjeta*/
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
